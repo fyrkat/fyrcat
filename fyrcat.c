@@ -11,6 +11,6 @@ int main(int argc, char **argv)
 
 	fp = fopen(argv[1], "r");
 	while (0 != fgets(buff, sizeof(buff), fp)) {
-		fprintf(stdout, "%s", buff);
+		printf("%s", buff);
 	}
 }
